@@ -4,7 +4,7 @@ pipeline {
       stage ('CxFlow') {
         steps {
           echo 'CxFlow stage'
-          sh 'java --version'
+          bat 'java --version'
         }
       }
     }
